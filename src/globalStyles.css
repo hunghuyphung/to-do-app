@@ -108,24 +108,16 @@ h1 {
     padding: 0 4px;
 }
 
-.padding-0-16 {
-    padding: 0 16px;
+.padding-8 {
+    padding: 8px;
 }
 
 .padding-8-16 {
     padding: 8px 16px;
 }
 
-.padding-16 {
-    padding: 16px;
-}
-
 .margin-8-0 {
     margin: 8px 0;
-}
-
-.margin-16-0 {
-    margin: 16px 0;
 }
 
 .margin-auto {

@@ -1,10 +1,9 @@
 import TodoItem from "../ToDoItem/ToDoItem";
 
-
 const tasks = [
     {
-        task: 'Create a reactjs project',
-        created: '5:23 AM,01/06/2022',
+        task: 'Create a new task',
+        created: '01/01/2024',
         completed: true
     }
 ];
