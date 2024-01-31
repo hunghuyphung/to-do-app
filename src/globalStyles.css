@@ -1,0 +1,143 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, button, input {
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.h-button {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.h-input {
+    display: block;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.h-opac {
+    opacity: 0.6;
+}
+
+.display-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bc-blue {
+    background-color: #6B50C7;
+}
+
+.bc-light-gray {
+    background-color: #f1f1f1;
+}
+
+.bc-gray {
+    background-color: #ccc;
+}
+
+.bc-white {
+    background-color: #fff;
+    color: #ccc;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.color-black {
+    color: #000;
+}
+
+.color-light-black {
+    color: #242424;
+}
+
+.color-gray {
+    color: #757575;
+}
+
+.font-42 {
+    font-size: 42px;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.border-radius-4 {
+    border-radius: 4px;
+}
+
+.padding-0-4 {
+    padding: 0 4px;
+}
+
+.padding-0-16 {
+    padding: 0 16px;
+}
+
+.padding-8-16 {
+    padding: 8px 16px;
+}
+
+.padding-16 {
+    padding: 16px;
+}
+
+.margin-8-0 {
+    margin: 8px 0;
+}
+
+.margin-16-0 {
+    margin: 16px 0;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.margin-right-8 {
+    margin-right: 8px;
+}
+
+.hover-gray:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
