@@ -7,17 +7,19 @@ function TodoList() {
     const [id, setId] = useState(0);
 
     function handleSubmitTask() {
-        const created = (new Date()).toLocaleDateString('en-GB');
-        const completed = false;
-        const summitedTask = {
-            id,
-            task,
-            created,
-            completed
-        };
+        if (task !== '') {
+            const created = (new Date()).toLocaleDateString('en-GB');
+            const completed = false;
+            const summitedTask = {
+                id,
+                task,
+                created,
+                completed
+            };
 
-        setId(prevId => prevId + 1);
-        setTasks(prevTasks => [summitedTask, ...prevTasks]);
+            setId(prevId => prevId + 1);
+            setTasks(prevTasks => [summitedTask, ...prevTasks]);
+        }
     }
 
     const handleDeleteTaskById = (id) => {
